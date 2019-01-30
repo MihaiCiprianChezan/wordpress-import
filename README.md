@@ -1,4 +1,4 @@
-# Wordpress Import Plugin
+# WordPress to GRAV Blog Content Import Plugin
 
 The **Wordpress Import** Plugin allows you to import xml posts data, including attachments media files (images eg. JPG, PNG, PDFs, ZIP archives etc.) exported from a **WordPress** blog into a **GRAV** blog via a command line interface.
 
@@ -74,7 +74,8 @@ Run in in GRAV folder:
 
 2. Import posts as above, but force overwriting, remove "Uncategorized" and add the category `blog` to all posts
 
-        php bin\plugin wordpress-import import -o -u -c blog `path/to/wordpress-export.xml` `my-blog`
+        php bin\plugin wordpress-import import -o -u -c blog path/to/wordpress-export.xml my-blog
         
 3. Import posts and specify media attachments folder for attachments which don't have parent posts 
-        php bin\plugin wordpress-import import `path/to/wordpress-export.xml` `my-blog` --mediafolder media
+      
+        php bin\plugin wordpress-import import path/to/wordpress-export.xml my-blog --mediafolder media
