@@ -1,14 +1,14 @@
 name: Wordpress Import
-version: 0.1.0
+version: 0.1.1
 description: Import data from a wordpress blog into a grav blog
 icon: wordpress
 author:
-  name: Zacchaeus
-  email: snape@zacchaeus.co.uk
-homepage: https://github.com/zacchaeusluke/grav-plugin-wordpress-import
+  name: Mihai Ciprian Chezan, Zacchaeus
+  email: mikache82@gmail.com, snape@zacchaeus.co.uk
+homepage: https://github.com/MihaiCiprianChezan/wordpress-import
 keywords: grav, plugin, wordpress, import
-bugs: https://github.com/zacchaeusluke/grav-plugin-wordpress-import/issues
-docs: https://github.com/zacchaeusluke/grav-plugin-wordpress-import/blob/develop/README.md
+bugs: https://github.com/MihaiCiprianChezan/wordpress-import/issues
+docs: https://github.com/MihaiCiprianChezan/wordpress-import/blob/master/README.md
 license: MIT
 
 form:

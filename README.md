@@ -1,6 +1,8 @@
 # Wordpress Import Plugin
 
-The **Wordpress Import** Plugin allows you to import xml posts data exported from a wordpress blog into a grav blog via a command line interface.
+The **Wordpress Import** Plugin allows you to import xml posts data, including attachments media files (images eg. JPG, PNG, PDFs, ZIP archives etc.) exported from a WordPress blog into a GRAV blog via a command line interface.
+
+** !!! This is still work in progress, please wait before using  until stable version is released (a few days) !!! **
 
 This plugin is for [Grav CMS](http://github.com/getgrav/grav).
 
@@ -57,6 +59,7 @@ The only command available is `import`. This should be run from the command line
 | -c | --cat=CAT | Add an additional category to all posts |
 | -u | --uncat | Remove the category "Uncategorized" from all posts |
 | -o | --overwrite |Force overwrite blog posts with the same name if they already exist.
+| -m | --mediafolder MEDIAFOLDER | Media folder name (eg. media-folder) for files which don't have parent posts or are not attached to certain posts. |
 
 > NOTE: If the overwrite option is not selected then any duplicate posts will prompt you to ask if you wish to overwrite.
 
@@ -68,4 +71,7 @@ The only command available is `import`. This should be run from the command line
 
 2. Import posts as above, but force overwriting, remove "Uncategorized" and add the category `blog` to all posts
 
-        bin\plugin wordpress-import import -o -u -c blog path/to/wordpress-export.xml my-blog
+        bin\plugin wordpress-import import -o -u -c blog `path/to/wordpress-export.xml` `my-blog`
+        
+3. Import posts and specify media attachments folder for attachments which don't have parent posts 
+        php bin\plugin wordpress-import import `path/to/wordpress-export.xml` `my-blog` --mediafolder media
