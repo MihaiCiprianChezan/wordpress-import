@@ -524,7 +524,7 @@ class ImportCommand extends ConsoleCommand
             // save attachments who don't have parent posts
             // check if it's an attachement ---------------------------------------------------------------------------
             //
-            else if ((string)$item->children('wp', true)->post_type == 'attachment' && !(string)$item->children('wp', true)->post_parent && true === false) {
+            else if ((string)$item->children('wp', true)->post_type == 'attachment' && !(string)$item->children('wp', true)->post_parent) {
 
                 if (!file_exists(preg_windows_slashes($bloglocation . '/' . $media_folder))) {
                     if (!mkdir(preg_windows_slashes($bloglocation . '/' . $media_folder))) {
