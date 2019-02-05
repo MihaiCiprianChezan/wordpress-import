@@ -1,6 +1,6 @@
 # WordPress to GRAV Blog Content Import Plugin
 
-The **Wordpress Import to GRAV ** Plugin allows you to import xml posts data, including attachments media files (images eg. JPG, PNG, PDFs, ZIP archives etc.) exported from a **WordPress** blog into a **GRAV** blog via a command line interface.
+The **Wordpress Import to GRAV Plugin**  allows you to import xml posts data, including attachments media files (images eg. JPG, PNG, PDFs, ZIP archives etc.) exported from a **WordPress** blog into a **GRAV** blog via a command line interface.
 
 This plugin is for [Grav CMS](http://github.com/getgrav/grav). This is based on [grav-plugin-wordpress-import](https://github.com/zacchaeusluke/grav-plugin-wordpress-import) plugin by zacchaeusluke.
 
@@ -21,9 +21,9 @@ From the root of your Grav install you should type:
 
     bin/gpm install wordpress-import
 
-This would normally install the Wordpress Import plugin into your `/user/plugins` directory within Grav. Its files should be found under `/your/site/grav/user/plugins/wordpress-import`.
+This would normally install the Wordpress to GRAV Import plugin into your `/user/plugins` directory within Grav. Its files should be found under `/your/site/grav/user/plugins/wordpress-import`.
 
-However at this moment GPM installation for Wordpress Import may or may not be available.
+However at this moment GPM installation for Wordpress to GRAV Import plugin may or may not be available via GPM.
 
 ### Manual Installation (Preferred)
 
