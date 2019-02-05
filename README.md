@@ -27,7 +27,7 @@ However at this moment GPM installation for Wordpress to GRAV Import plugin may 
 
 ### Manual Installation (Preferred)
 
-To install this plugin, just download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Folder name of the plugin should be `wordpress-import`. You can find these files on [GitHub](https://github.com/MihaiCiprianChezan/wordpress-import).
+To install this plugin, just download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. **IMPORTANT: Folder name of the plugin should be plain `wordpress-import`** (without versioning number, e.g: `wordpress-import-1.2`). You can find these files on [GitHub](https://github.com/MihaiCiprianChezan/wordpress-import).
 
 You should now have all the plugin files under
 
