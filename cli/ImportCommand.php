@@ -9,7 +9,7 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Question\ConfirmationQuestion;
 use Symfony\Component\Yaml\Yaml;
 
-include(dirname(__FILE__) . '/../lib\simplehtmldom\simple_html_dom.php');
+include(dirname(__FILE__) . '/../lib/simplehtmldom/simple_html_dom.php'); // fixed \ folder separator 01.03.19
 
 /**
  * Class HelloCommand
